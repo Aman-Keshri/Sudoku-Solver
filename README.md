@@ -10,7 +10,7 @@ The above-described puzzle is called a Sudoku of rank 3. A Sudoku of rank n is a
 The most basic strategy to solve a Sudoku puzzle is to first write down, in each empty cell, all possible entries that will not contradict the One Rule with respect to the given cells. If a cell ends up having only one possible entry, it is a "forced" entry that you should fill in.
 
 # Implementation
-The sudokuGUI.py contains the main GUI code that uses pygame.
+The sudoku_game_GUI.py contains the main GUI code that uses pygame.
 
 # Algorithm
 Starting with an incomplete board:
